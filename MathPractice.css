@@ -1,0 +1,61 @@
+/* Main Elements */
+body,
+input,
+option {
+    text-align: center;
+}
+input,
+select {
+    display: block;
+    margin: auto;
+    margin-bottom: 18px;
+}
+ul {
+    list-style-type: none;
+}
+td {
+    text-align: center;
+    font-weight: normal;
+}
+button,
+input[type=button] {
+    border: none;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    margin-bottom: 1em;
+}
+
+/* Classes */
+.fontStyle, .qBox {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.qBox {
+    display: inline-block;
+}
+
+/* IDs */
+#params {
+    background-color: rgb(57, 141, 209);
+    border-radius: 15px;
+    box-shadow: 5px 5px 16px;
+    display: inline-block;
+    margin-top: 30px;
+    min-width: 300px;
+    padding: 50px 30px 50px 30px;
+    font-weight: bold;
+}
+#msgBox {
+    margin-top: 30px;
+    position: relative;
+    font-weight: bold;
+}
+#start {
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
