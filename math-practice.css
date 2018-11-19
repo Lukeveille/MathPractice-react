@@ -61,4 +61,5 @@ table {
 }
 #vanilla-dom {
     /* display: none; */
+    display: block;
 }
