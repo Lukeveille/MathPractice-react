@@ -12,16 +12,26 @@
 
     <body class="fontStyle">
 
+        <select id="version">
+            <option value="prompts">Version 1: Prompts</option>
+            <option value="vanillaJS">Version 2: Vanilla DOM</option>
+            <option value="react">Version 3: React DOM</option>
+        </select>
+
+        <div id="prompts">
+            <div class="game-box">Start!</div>
+        </div>
+
         <div id="vanilla-dom">
             <div id="params" class="game-box"></div>
             <p id="msgBox" class="messages"></p>
         </div>
 
-        <!-- <div id="react-dom"></div> -->
+        <div id="react-dom"></div>
         
         <script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
         <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
-        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.24.0/babel.js"></script> -->
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
         <script src="App.js" type="text/babel"></script>
     </body>
 </html>
